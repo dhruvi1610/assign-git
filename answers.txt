@@ -1,5 +1,9 @@
 •	What is a gitignore file and what should it include for a Java project?
+  ANS: girignore file has .class .war .jar files and it has the pattern of which kind of files to ignore.
 •	What does fast-forward in Git mean?
+ ANS: fast-forward in git means updating the HEAD in such a way that the newer value is direct descedent of the older value.
 •	Why should you have different branches?
+ ANS: While working i a team there can be more than one person making pull request at a time , so everybody can work in a branch and whenever they want to test their individual work aligning to project, they can evaluate using the master branch this way only tested working code can be merged and changes are not lost.
 •	In a project how many remote Git repositories do you usually have?
-
+ ANS: In a project only one repository should be there, it can have more than one branches such as master , development , test  but working software is always on master branch and
+  never merged without twstins is done.
